@@ -10,7 +10,7 @@ This project uses a Convolutional Neural Network (CNN) trained on the MNIST data
 
 - 🧠 **Model Training Notebook** – Builds and trains a CNN using TensorFlow/Keras on MNIST
 - 🖼️ **Interactive GUI (Tkinter)** – Lets you draw a digit and predicts it using the trained model
-- 📁 **Pre-trained Model** – Saved as `mnist_cnn_model.h5` (used by the GUI)
+- 📁 **Pre-trained Model** – Saved as `mnist_cnn_model.keras` (used by the GUI)
 
 ---
 
@@ -72,7 +72,7 @@ pip install tensorflow numpy matplotlib pillow
 ## ✍️ Run the GUI Application
 
 ```bash
-python digit_gui_predictor.py
+python draw_digit_ui.py
 ```
 - A window will appear where you can draw a digit with your mouse.
 
@@ -89,8 +89,9 @@ Make sure mnist_cnn_model.h5 is in the same directory!
 ## 📈 Sample Output
 You can expect predictions like:
 
-Prediction: 3 (Confidence: 0.99)
+Prediction: 2 (Confidence: 0.99)
 
 And a GUI like this:
 
+![Sample Output](assets/output.png)
 
