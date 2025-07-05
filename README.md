@@ -1,46 +1,41 @@
-# -Handwritten-Digit-Recognition-MNIST-
-This project uses a Convolutional Neural Network (CNN) to recognize handwritten digits from the MNIST dataset, a standard benchmark in the field of computer vision and deep learning. The model is built using TensorFlow/Keras and achieves high accuracy in classifying digits from 0 to 9.
+# 🧠 Handwritten Digit Recognition using MNIST
 
-📌 Problem Statement:
-</br>
-Handwritten text can vary significantly in style, making it challenging to interpret. This project demonstrates how AI can help recognize handwritten digits, which has practical applications in edtech, smart exam-checking tools, and form digitization.
+This machine learning project uses a Convolutional Neural Network (CNN) to recognize handwritten digits from the **MNIST dataset**. Implemented in Python using TensorFlow and Keras, this notebook walks through data loading, preprocessing, model training, and evaluation.
 
-🎯 Objective:
+---
 
-Build and train a CNN model that accurately classifies handwritten digits from the MNIST dataset using deep learning techniques.
+## 📊 Dataset
 
-✅ Features:
-</br>
-✅ Load MNIST dataset using keras.datasets.</br>
-✅ Preprocess and normalize the data.</br>
-✅ Build and train a CNN model using TensorFlow/Keras.</br>
-✅ Evaluate model accuracy and performance.</br>
-✅ Achieves over 98% accuracy/</br>
+- **MNIST**: 70,000 grayscale images of handwritten digits (0–9)
+  - **Training Samples**: 60,000
+  - **Testing Samples**: 10,000
+  - Image size: 28×28 pixels
 
-🖌️ (Optional) Build a simple UI to draw digits and see real-time predictions
+---
 
-📂 Requirements:
-</br>
-- Python 3.x.</br>
-- TensorFlow/Keras.</br>
-- NumPy, Matplotlib.</br>
+## 🚀 Features
 
-🔍 Usage
-Clone the repo:</br>
-bash</br>
-git clone https://github.com/yourusername/handwritten-digit-recognition.git
-cd handwritten-digit-recognition
+- Loads MNIST directly from Keras datasets
+- Visualizes training/testing samples
+- Normalizes image data for better performance
+- Builds and trains a CNN using Keras Sequential API
+- Evaluates model performance and accuracy
+- Includes visual plots of training history and predictions
 
-Copy
+---
 
-Edit
-git clone https://github.com/yourusername/handwritten-digit-recognition.git
-Run the notebook or script:
+## 🧰 Technologies Used
 
-bash
-Copy
-Edit
-python mnist_cnn_model.py
-🚀 Expected Outcome
-A user-friendly digit recognition model with high accuracy, suitable for educational or real-world digit input applications.
+- Python
+- Jupyter Notebook
+- TensorFlow / Keras
+- NumPy, Matplotlib
 
+---
+
+## 📂 How to Run
+
+1. Clone the repository or download the notebook:
+   ```bash
+   git clone https://github.com/Pankaj97825/-Handwritten-Digit-Recognition-MNIST-.git
+   cd -Handwritten-Digit-Recognition-MNIST-
