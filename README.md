@@ -2,7 +2,7 @@
 
 This project uses a Convolutional Neural Network (CNN) trained on the MNIST dataset to recognize handwritten digits (0–9). It includes both a **Jupyter notebook** for training and testing the model and a **Python Tkinter GUI app** that allows users to draw digits and see real-time predictions.
 
-![Sample Output](SampleOutput.webp)
+![Sample Output](assets/digits.png)
 
 ---
 
