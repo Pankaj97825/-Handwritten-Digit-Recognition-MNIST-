@@ -95,3 +95,8 @@ And a GUI like this:
 
 ![Sample Output](assets/output.png)
 
+---
+### 🙋‍♂️ Author
+Pankaj Kumar<br>
+GitHub: [@Pankaj97825](https://github.com/Pankaj97825)
+
