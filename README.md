@@ -98,5 +98,5 @@ And a GUI like this:
 ---
 ### 🙋‍♂️ Author
 Pankaj Kumar<br>
-GitHub: [@Pankaj97825](https://github.com/Pankaj97825)
+GitHub: [@PankajKumar-11](https://github.com/PankajKumar-11)
 
